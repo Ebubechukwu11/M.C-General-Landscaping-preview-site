@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.C. General Landscaping - Services</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the Blue and Amber theme */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc;
+            /* Light background for main content */
+        }
+
+        .bg-primary-blue {
+            background-color: #1a237e;
+            /* Deep Blue from the image */
+        }
+
+        .text-accent-amber {
+            color: #ffc107;
+            /* Bright Amber/Yellow from the image */
+        }
+
+        .bg-accent-amber {
+            background-color: #ffc107;
+        }
+
+        .hover-accent-amber:hover {
+            background-color: #e0a800;
+            /* Darker amber on hover */
+        }
+
+        .shadow-3d {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header/Navigation (Dark Blue/Amber Design) -->
+    <header class="bg-white shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center h-full">
+                <a href="mc master design.html" class="">
+                    <img src="C:\Users\pc\Desktop\MC Landscaping design\lc.png" alt="Company Logo"
+                        class="h-12 w-auto object-contain"
+                        onerror="this.onerror=null;this.src='C:\Users\pc\Desktop\MC Landscaping design\lc.png';">
+                </a>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="space-x-8 hidden md:flex">
+                <a href="mc master design.html"
+                    class="text-gray-700 hover:text-accent-amber transition duration-150 font-medium">Home</a>
+                <a href="About.html"
+                    class="text-gray-700 hover:text-accent-amber transition duration-150 font-medium">About
+                    Us</a>
+                <!-- SERVICES is the current page, highlighted differently -->
+                <a href="Services.html" class="text-blue-600 font-bold">Services</a>
+                <a href="Portfolio.html"
+                    class="text-gray-700 hover:text-accent-amber transition duration-150 font-medium">Portfolio</a>
+                <a href="Contact.html"
+                    class="text-gray-700 hover:text-accent-amber transition duration-150 font-medium">Contact</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <a href="Contact.html"
+                class="bg-blue-600 hover:bg-blue-700 text-yellow-400 font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300">
+                Get Quote
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section (Matching the Image Style) -->
+    <section class="bg-primary-blue text-center py-20 mb-12 shadow-inner">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-6xl sm:text-7xl font-extrabold text-accent-amber mb-2 tracking-wider">
+                SERVICES
+            </h2>
+            <p class="text-2xl text-white font-light opacity-90">
+                M.C. GENERAL LANDSCAPING INC.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content Wrapper - Service Introduction -->
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="text-center text-lg text-gray-600 mb-12 leading-relaxed">
+            We provide comprehensive landscaping services that transform outdoor spaces into beautiful, functional
+            environments. From design and installation to ongoing maintenance, our expert team is dedicated to bringing
+            your vision to life while enhancing the beauty and value of your property.
+        </p>
+    </div>
+
+    <!-- Services Grid Section -->
+    <section class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+        <div id="servicesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Cards will be injected here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Call to Action Section (Amber/Blue Contrast) -->
+    <section class="py-16 mt-12 bg-accent-amber rounded-3xl shadow-3d text-center mx-4 md:mx-auto max-w-7xl">
+        <h2 class="text-4xl font-extrabold text-primary-blue mb-4">
+            GO GREEN WITH US TODAY
+        </h2>
+        <p class="text-xl text-primary-blue mb-8 font-semibold">
+            Contact us for a free estimate and reliable service you can trust.
+        </p>
+        <a href="Contact.html">
+            <button
+                class="bg-primary-blue text-white py-3 px-10 rounded-full font-bold text-lg shadow-xl hover:bg-blue-900 transition duration-300 transform hover:scale-105">
+                GET YOUR FREE QUOTE
+            </button>
+        </a>
+    </section>
+
+    <!-- Footer (Consistent with index.html) -->
+    <footer class="bg-[--color-dark] py-12 md:py-16 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+                <!-- Logo & Social -->
+                <div class="col-span-2 lg:col-span-1">
+                    <!-- Image Logo in Footer (Home • Desktop.jpg) -->
+                    <img src="C:\Users\pc\Desktop\MC Landscaping design\lc.png" alt="Company Logo"
+                        class="h-15 w-auto object-contain"
+                        onerror="this.onerror=null;this.src='C:\Users\pc\Desktop\MC Landscaping design\lc.png';">
+
+                    <p class="mt-2 text-sm text-gray-400">M.C General Landscaping Inc.</p>
+
+                    <!-- Social Icons -->
+                    <div class="flex space-x-4 mt-4">
+                        <a href="https://www.instagram.com/kelvinmolina_89/?sfnsn=mo" target="_blank"
+                            class="text-gray-400 hover:text-pink-600 transition duration-300" aria-label="Instagram">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.8 2h8.4C17.7 2 19 3.3 19 4.8v8.4c0 1.5-1.3 2.8-2.8 2.8H7.8C6.3 16 5 14.7 5 13.2V4.8C5 3.3 6.3 2 7.8 2zm8.4 12.2c.8 0 1.4-.6 1.4-1.4V7.8c0-.8-.6-1.4-1.4-1.4H7.8c-.8 0-1.4.6-1.4 1.4v6.4c0 .8.6 1.4 1.4 1.4h8.4zM12 8a4 4 0 100 8 4 4 0 000-8zm0 2a2 2 0 110 4 2 2 0 010-4z" />
+                                <circle cx="17.5" cy="6.5" r="1" />
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/kelvincruz305?mibextid=ZbWKwL" target="_blank"
+                            class="text-gray-400 hover:text-blue-600 transition duration-300" aria-label="Facebook">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15h-2.26v-3h2.26V9.25c0-2.22 1.35-3.45 3.34-3.45 0.95 0 1.87 0.07 2.12 0.1v2.4h-1.42c-1.07 0-1.28 0.51-1.28 1.25V12h2.81l-0.45 3h-2.36v6.79C18.56 20.87 22 16.84 22 12z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@mcgenerallandscaping?_t=8qNXmIUurnS&amp;_r=1" target="_blank"
+                            class="text-gray-400 hover:text-cyan-500 transition duration-300" aria-label="TikTok">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.515 1.18c.24-.03.49-.05.74-.05s.5.02.74.05v3.43c-.14-.03-.28-.05-.43-.05-.9 0-2.19.36-2.18 2.08.003.55 0 1.28.006 1.84h4.52V14h-4.52v5.99c0 1.35-.82 2.17-1.85 2.17-1.13 0-2.02-.79-2.02-2.17V7.79c0-.98-.67-1.78-1.61-1.78-.47 0-.92.18-1.29.5V1.18c.38-.08.78-.12 1.19-.12 1.26 0 2.45.49 3.36 1.39.9.9 1.39 2.1 1.39 3.36V14h4.52V1.18z" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/message/CUMLT547XLOEG1" target="_blank"
+                            class="text-gray-400 hover:text-emerald-500 transition duration-300" aria-label="WhatsApp">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12c0 3.12 1.45 5.94 3.73 7.85l-.25 1.02a.85.85 0 00.9.9.85.85 0 00.9-.9l-.25-1.02C8.06 20.45 9.9 21.4 12 21.4c5.52 0 10-4.48 10-10S17.52 2 12 2zM17.43 14.5c-.21.08-.66.24-1.11.4c-.45.15-1.03.22-1.61.22-1.74 0-3.35-.9-4.26-2.45-.1-.17-.2-.34-.27-.52s-.13-.37-.16-.56c0-.02 0-.05 0-.07-.03-.1-.03-.2-.04-.3s-.01-.2-.01-.3v-.02c0-.36.14-.72.43-1.01s.65-.43 1.01-.43c.27 0 .52.1.72.3s.3.46.36.74c.06.28.1.58.11.89s0 .64-.07.96c-.07.31-.2.59-.39.85s-.42.47-.69.63c-.27.16-.57.26-.9.3s-.65.04-.98-.01c-.16-.02-.32-.08-.47-.15s-.28-.16-.4-.28-.2-.25-.27-.4s-.1-.3-.11-.46c0-.02 0-.04.01-.06s.02-.04.03-.05c.03-.07.07-.13.13-.19s.12-.1.19-.13c.09-.04.18-.06.27-.06s.18.02.27.06c.09.04.17.1.24.18.07.08.13.17.18.26.05.09.08.18.1.28.02.1.03.2.03.3s0 .2-.02.3c-.02.1-.05.2-.1.3s-.1.2-.18.3c-.08.1-.17.2-.27.3s-.2.2-.3.3c-.1.1-.2.2-.3.3s-.2.2-.3.3c-.1.1-.2.1-.3.2s-.2.1-.3.1c-.2.03-.4.05-.6.05s-.4-.01-.6-.05c-.15-.02-.3-.07-.45-.13s-.28-.14-.4-.25c-.12-.1-.23-.23-.32-.37s-.14-.3-.17-.47c-.03-.17-.05-.35-.05-.53s.01-.36.05-.54c.04-.18.1-.35.18-.52s.19-.34.33-.49c.14-.15.3-.28.48-.38s.37-.17.58-.23c.21-.06.43-.09.65-.09.22 0 .43.03.65.09.22.06.43.15.63.26.2.11.37.26.5.43s.25.37.33.6c.08.23.12.47.12.72s-.04.49-.12.74c-.08.25-.19.49-.33.72s-.3.44-.5.62c-.2.18-.42.34-.67.46s-.52.22-.8.27z" />
+                            </svg>
+                        </a>
+                        <a href="https://youtube.com/@mialandscaping305?si=b2fA6g21o1oPbRWU" target="_blank"
+                            class="text-gray-400 hover:text-red-700 transition duration-300" aria-label="YouTube">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.615 2.17a3.07 3.07 0 00-2.16-1.07C15.65 1 12 1 12 1s-3.65 0-5.455.1A3.07 3.07 0 004.385 2.17c-.12.33-.185.7-.19 1.11v17.44c.005.41.07.78.19 1.11a3.07 3.07 0 002.16 1.07c1.805.1 5.455.1 5.455.1s3.65 0 5.455-.1a3.07 3.07 0 002.16-1.07c.12-.33.185-.7.19-1.11V3.28c-.005-.41-.07-.78-.19-1.11zM10.15 15.68V8.32l6.2 3.68-6.2 3.68z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
+                &copy; 2025 M.C General Landscaping. All rights reserved.
+            </div>
+        </div>
+
+        <script>
+            const servicesData = [
+                {
+                    title: "IRRIGATION SYSTEMS AND REPAIR",
+                    description: "Efficient irrigation for vibrant gardens all year round, including prompt repairs and system checks."
+                },
+                {
+                    title: "TREE / STUMP REMOVAL",
+                    description: "Safe and efficient tree/stump removal to clear land and protect your property."
+                },
+                {
+                    title: "LANDSCAPING RESTORATION AND RENOVATON",
+                    description: "We take utmost care to revive and enhance tired outdoor environments, turning neglected spaces into beautifully functional landscapes."
+                },
+                {
+                    title: "COMMERCIAL / RESIDENTIAL LANDSCAPING",
+                    description: "Professional services tailored for both large commercial properties and detailed residential gardens."
+                },
+                {
+                    title: "SEASONAL CLEAN UP",
+                    description: "Freshen your landscape with comprehensive seasonal clean-up services (Spring, Fall, Hurricane prep)."
+                },
+                {
+                    title: "MULCHING AND SOIL CARE",
+                    description: "Assistance in selecting and applying quality mulch and soil products to nourish your plants and enhance curb appeal."
+                },
+                {
+                    title: "LANDSCAPE DESIGN",
+                    description: "We assist you in crafting unique outdoor visions tailored to your wants and needs, from concept sketches to final plans."
+                },
+                {
+                    title: "PLANTING SERVICES",
+                    description: "Expert selection and placement of new flowers, shrubs, and trees to bring life and joy into your landscaping."
+                },
+                {
+                    title: "DEBRIS REMOVAL",
+                    description: "Quick and thorough removal of debris from construction, man-made projects, or storm damage."
+                },
+                {
+                    title: "ARTIFICIAL GRASS INSTALLATION",
+                    description: "High-quality, low-maintenance artificial grass installation for year-round perfect lawns."
+                },
+                {
+                    title: "LANDSCAPING MAINTENANCE",
+                    description: "Ongoing maintenance and assistance in tackling any possible problems that may arise to keep your yard pristine."
+                },
+                {
+                    title: "TREE AND SHRUB MAINTENANCE",
+                    description: "Meticulous services promoting structural integrity, healthy growth, and long-term beauty for all your woody plants."
+                },
+                {
+                    title: "GARDEN MAINTENANCE",
+                    description: "Tailored services including weeding, pruning, and health checks, ensuring a well-kept garden that improves outdoor enjoyment."
+                },
+            ];
+
+            const serviceGrid = document.getElementById('servicesGrid');
+
+            // Leaf Icon with Amber accent
+            const leafIcon = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-blue">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.8 4.3 17 2.2 19 2c1 1.2 0.8 3.3-2 5.5s-6 3.6-7.2 9.5a5.5 5.5 0 0 0-2.6 5z"/>
+            </svg>
+        `;
+
+            servicesData.forEach(service => {
+                const card = document.createElement('div');
+                card.className = 'bg-white p-6 rounded-xl shadow-lg transition duration-300 hover:shadow-xl border-t-4 border-accent-amber flex flex-col items-start';
+                card.innerHTML = `
+                <div class="p-3 mb-4 rounded-full bg-accent-amber">${leafIcon}</div>
+                <h3 class="text-lg font-bold text-primary-blue mb-2">${service.title}</h3>
+                <p class="text-gray-600 text-sm">${service.description}</p>
+                
+                    
+            `;
+                serviceGrid.appendChild(card);
+            });
+        </script>
+</body>
+
+</html>

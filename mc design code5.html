@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US — M.C GENERAL LANDSCAPING INC.</title>
+    <style>
+        /* BASE STYLES */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #444;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        /* TYPOGRAPHY & HEADER */
+        h1 {
+            font-size: 3em;
+            color: #1e8449;
+            /* Primary Green */
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: #888;
+            text-align: center;
+            font-weight: normal;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        .intro-text {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 50px;
+            font-size: 1.1em;
+        }
+
+        /* LAYOUT GRID (Form and Picture) */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        /* FORM STYLES */
+        .contact-form label {
+            display: block;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-form textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .contact-form button {
+            background-color: #1e8449;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            text-transform: uppercase;
+        }
+
+        .contact-form button:hover {
+            background-color: #155e32;
+        }
+
+        /* PICTURE PLACEHOLDER */
+        .image-placeholder {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            /* Ensures a good minimum height */
+            background-color: #ddd;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-style: italic;
+            /* Insert your image here: <img src="URL" alt="..." style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"> */
+        }
+
+        /* FOOTER/CONTACT INFO BLOCK */
+        .info-block {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+
+        .info-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 90%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .info-content div {
+            flex: 1;
+            min-width: 250px;
+            padding: 10px;
+        }
+
+        .info-content strong {
+            color: #1e8449;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        /* MOBILE ADJUSTMENTS */
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .image-placeholder {
+                min-height: 250px;
+            }
+
+            .info-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>CONTACT US</h1>
+        <h2>M.C GENERAL LANDSCAPING INC.</h2>
+
+        <div class="intro-text">
+            <p><strong>CONTACT US TODAY</strong></p>
+            <p>AT M.C GENERAL LANDSCAPING INC, WE VALUE YOU YOUR INSIGHTS AND INQUIRIES. WHETHER YOU HAVE QUESTIONS,
+                CONCERNS, OR INNOVATIVE IDEAS REGARDING YOUR LANDSCAPING NEEDS, OUR DEDICATED TEAM IS HERE TO ASSIST
+                YOU!</p>
+            <p>WE BELIEVE THAT EFFECTIVE COMMUNICATION IS THE CORNERSTONE OF A SUCCESSFUL PARTNERSHIP, AND WE ENCOURAGE
+                YOU TO REACH OUT TO US. YOUR SATISFACTION IS OUR UTMOST PRIORITY, AND WE LOOK FORWARD TO COLLABORATING
+                WITH YOU TO BRING YOUR VISION TO LIFE.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="#" method="POST">
+
+                    <label for="name">NAME (required)</label>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                    <label for="email">EMAIL (required)</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">MESSAGE (required)</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </div>
+
+            <div class="image-placeholder">
+                <div class="image-placeholder">
+                    <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/fddb4500-ad8f-43b1-a7e1-647e80598e4f/WhatsApp+Image+2024-10-08+at+7.01.40+AM.jpeg?format=1500w"
+                        alt="Beautiful landscape project"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="info-block">
+        <div class="info-content">
+            <div>
+                <strong>M.C GENERAL LANDSCAPING INC</strong>
+                <p>FAMILY RUN BUSINESS WITH OVER 10 YEARS IN EXPERIENCE!!!</p>
+                <p>&copy; 2025 M.C GENERAL LANDSCAPING INC.</p>
+            </div>
+
+            <div>
+                <strong>LOCATION</strong>
+                <p>( WEST LITTLE RIVER ) AREA BASED SERVICES</p>
+            </div>
+
+            <div>
+                <strong>CONTACT US</strong>
+                <p>m.c.lawnservice.inc@gmail.com</p>
+                <p>(786) 751-1760</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

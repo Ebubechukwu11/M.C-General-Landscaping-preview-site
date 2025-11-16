@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner's Message - About Us</title>
+    <style>
+        /* BASE STYLES */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.65;
+            background-color: #f7f7f7;
+        }
+
+        .main-content {
+            width: 90%;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            /* Key fix: ensure no fixed height restrictions */
+            min-height: 80vh;
+        }
+
+        /* TYPOGRAPHY */
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 50px;
+            color: #1e8449;
+            /* Green Accent */
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #555;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* PICTURE PLACEHOLDER STYLES */
+        .owner-picture-space {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 30px;
+            background-color: #ddd;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #888;
+            font-style: italic;
+            border: 5px solid #1e8449;
+            overflow: hidden;
+        }
+
+        /* Ensure image fills the circular space when added */
+        .owner-picture-space img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* MESSAGE BLOCK */
+        blockquote {
+            font-style: italic;
+            font-size: 1.1em;
+            border-left: 4px solid #1e8449;
+            padding-left: 20px;
+            margin: 20px 0 20px 0;
+            color: #444;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        .signature {
+            margin-top: 30px;
+            text-align: right;
+            font-weight: bold;
+            color: #1e8449;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 20px;
+                margin: 20px auto;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .owner-picture-space {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-content">
+        <h1>ABOUT</h1>
+
+        <div class="owner-picture-space">
+
+            <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/da728041-19c0-4f0e-a812-3c86b90a3e02/WhatsApp+Image+2024-10-08+at+9.11.41+AM.jpeg?format=1500w"
+                alt="Picture of M.C. General Landscaping Owner" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+    </div>
+
+    <h2>WORD FROM THE OWNER</h2>
+
+    <blockquote>
+        "As the owner of this family-run landscaping company, I am proud to share our journey, which spans over a
+        decade in this vibrant industry. From the very beginning, our focus has been on creating beautiful outdoor
+        spaces that truly reflect the vision and needs of our clients. We believe that every project is an
+        opportunity to forge lasting relationships, and we approach each one with the same care and dedication that
+        we would extend to our own family."
+    </blockquote>
+
+    <p>Our attention to detail is at the heart of everything we do. We understand that landscaping is not just about
+        plants and design; it's about crafting an environment that enhances the lives of those who inhabit it. Our
+        team is committed to providing client-oriented services, taking the time to listen and understand your
+        unique preferences and aspirations.</p>
+
+    <p>Over the years, we have honed our skills and knowledge, allowing us to stay ahead of trends while maintaining
+        a classic sense of beauty in our designs. Whether it's a small garden renovation or a large-scale landscape
+        transformation, our goal is to exceed your expectations and create a space you'll love for years to come.
+    </p>
+
+    <p>Thank you for considering us for your landscaping needs. We look forward to the opportunity to work together
+        and bring your vision to life.</p>
+
+    <div class="signature">
+        — M.C GENERAL LANDSCAPING INC. Owner
+    </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.C. Landscaping Portfolio</title>
+    <style>
+        /* CORE DESIGN STYLES */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #444;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        /* TYPOGRAPHY */
+        h1 {
+            font-size: 3em;
+            color: #1e8449;
+            /* Primary Green */
+            text-align: center;
+            margin-bottom: 5px;
+            padding-top: 20px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: #888;
+            text-align: center;
+            font-weight: normal;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        /* PORTFOLIO GRID */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding-top: 20px;
+        }
+
+        .portfolio-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 250px;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-style: italic;
+            text-align: center;
+            /* Replace with <img src="YOUR_IMAGE_URL" alt="..."> */
+        }
+
+        .item-info {
+            padding: 15px;
+            border-top: 3px solid #1e8449;
+        }
+
+        .item-info p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+            font-weight: bold;
+        }
+
+        /* CONTACT SECTION AT BOTTOM (REPLACING FOOTER) */
+        .contact-section {
+            background-color: #222;
+            /* Dark section background */
+            color: white;
+            padding: 40px 0;
+            margin-top: 40px;
+        }
+
+        .contact-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .contact-info .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #1e8449;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 0.95em;
+            color: #ccc;
+        }
+
+        .experience {
+            flex: 1;
+            min-width: 280px;
+            text-align: right;
+        }
+
+        .experience p {
+            font-weight: bold;
+            color: #1e8449;
+            margin: 5px 0;
+        }
+
+        /* MOBILE RESPONSIVENESS */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            h2 {
+                margin-bottom: 20px;
+            }
+
+            .contact-content {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            .experience {
+                order: -1;
+                text-align: center;
+                margin-bottom: 20px;
+                max-width: 100%;
+            }
+
+            .contact-info {
+                text-align: center;
+            }
+
+            .contact-info .logo {
+                color: white;
+                /* Ensure logo is visible on dark background */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>PORTFOLIO</h1>
+        <h2>M.C GENERAL LANDSCAPING INC CUSTOM DESIGNS AND PROFESSIONAL SERVICE</h2>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/a0bbd749-ad95-4fdc-b5bd-357fb444b54f/WhatsApp+Image+2024-10-08+at+7.29.14+AM.jpeg?format=750w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>Residential Lawn Care & Maintenance</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/3e5fcb7d-7895-4a0e-b4e8-66c3c36e91c7/WhatsApp+Image+2024-10-08+at+7.27.29+AM.jpeg?format=750w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>New Sod Installation & Edging</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/9f0a657f-c123-4ae5-bec1-d1d79bb49c6c/WhatsApp+Image+2024-10-08+at+7.27.35+AM.jpeg?format=750w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>Custom Hardscaping and Pavers</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/38eebb82-47d6-48fe-b37c-6cda0d794943/WhatsApp+Image+2024-10-08+at+7.29.14+AM+%283%29.jpeg?format=750w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>Seasonal Clean-Up & Trimming</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/94897b8a-d0ec-4b7d-815f-a951d21ed955/WhatsApp+Image+2024-10-08+at+9.45.21+AM.jpeg?format=500w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>Tree Service and Removal</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/8a245c8d-2fc0-4b83-b716-dad17590eba0/WhatsApp+Image+2024-10-08+at+7.29.15+AM+%281%29.jpeg?format=750w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>Commercial Property Groundskeeping</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/42c544d4-f6e8-4bcb-a7b1-bd40f3cf0f60/WhatsApp+Image+2024-10-08+at+9.45.23+AM.jpeg?format=500w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>Decorative Gravel Installation</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/9bf9ea36-6c4a-45a3-a966-a519cebf2b27/WhatsApp+Image+2024-10-08+at+7.29.15+AM+%282%29.jpeg?format=500w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>Flower Bed and Shrub Planting</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/67043b7f8ef4d90781ba01bc/5fd8302e-c513-4068-981a-fde33ecd54e5/WhatsApp+Image+2024-10-08+at+7.01.39+AM+%281%29.jpeg?format=500w"
+                    alt="Residential Lawn Care" class="image-placeholder">
+                <div class="item-info">
+                    <p>Walkway and Entrance Refinishing</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="contact-section">
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="logo">M.C GENERAL LANDSCAPING INC.</div>
+                <p>LOCATION: ( WEST LITTLE RIVER ) AREA BASED SERVICES</p>
+                <p>EMAIL: m.c.lawnservice.inc@gmail.com</p>
+                <p>PHONE: (786) 751-1760</p>
+            </div>
+
+            <div class="experience">
+                <p>FAMILY RUN BUSINESS WITH OVER 10 YEARS IN EXPERIENCE!!!</p>
+                <p style="color: white; font-weight: normal;">&copy; 2025 M.C GENERAL LANDSCAPING INC.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
